@@ -1,6 +1,14 @@
 body, html{
 	height: 100%;
 	width: 100%;
+
+}
+
+body{
+	background-image: url("../img/rain.jpg");
+	background-size: cover;
+	
+
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -156,10 +164,10 @@ h3{
 	margin: 0;
 	position: absolute;
 	color: #140D7F;
-	right: 0%;
-	top: 20%;
-	font-size: 35.5px;
-	opacity: .4;
+	right: 20%;
+	top: 22%;
+	font-size: 36px;
+	opacity: .5;
 }
 
 .wdata-11{
@@ -168,11 +176,11 @@ h3{
 	position: absolute;
 	font-size: 36px;
 	color: #140D7F;
-	opacity: .4;
+	opacity: .5;
 }
 
 .forcast p{
-	padding: 0.1rem 0rem 0rem 10rem;
+	padding: 0rem 0rem 0rem 10rem;
 	font-size: 28px;
 }
 
@@ -204,7 +212,7 @@ h3{
 	position: absolute;
 	font-size: 46px;
 	color: #140D7F;
-	opacity: .4;
+	opacity: .5;
 }
 
 .sunrise{
@@ -213,7 +221,7 @@ h3{
 	position: absolute;
 	font-size: 46px;
 	color: #140D7F;
-	opacity: .4;
+	opacity: .5;
 }
 
 .wind-d{
@@ -222,7 +230,7 @@ h3{
 	position: absolute;
 	font-size: 46px;
 	color: #140D7F;
-	opacity: .4;
+	opacity: .5;
 }
 
 .wind-s{
@@ -231,7 +239,7 @@ h3{
 	position: absolute;
 	font-size: 46px;
 	color: #140D7F;
-	opacity: .4;
+	opacity: .5;
 }
 
 @media screen and (min-width: 47.5rem){
